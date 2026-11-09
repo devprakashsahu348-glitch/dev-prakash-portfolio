@@ -72,7 +72,7 @@ footer{text-align:center;padding:80px 5vw 40px;color:var(--mu);margin-top:60px;b
   <p class="tag"><i></i> INCOMING TRANSMISSION · STATUS: OPEN TO WORK</p>
   <h1 class="glitch" data-t="DEV PRAKASH SAHU">DEV PRAKASH SAHU</h1>
   <p class="sub">MISSION: <span id="mis"></span><u></u></p>
-  <p class="lead">I'm a BCA (Hons.) student from Kharagpur who doesn't wait for opportunities, I launch projects. Soil-health apps, blood-donor networks, AI tools. Scroll to fly through my universe.</p>
+  <p class="lead">I'm a BCA (Hons.) student from Kharagpur who doesn't wait for opportunities, I launch projects. Soil-health apps, attendance systems, AI tools. Scroll to fly through my universe.</p>
   <div class="cta"><a class="btn mag" href="Dev_Prakash_Sahu_CV.pdf" download>📄 DOWNLOAD CV</a><a class="btn ghost mag" href="#contact">📡 SEND SIGNAL</a></div>
   <div class="soc" id="soc1"></div>
  </div>
@@ -83,7 +83,7 @@ footer{text-align:center;padding:80px 5vw 40px;color:var(--mu);margin-top:60px;b
 <section id="how" class="wrap rv"><h2><small>// HOW TO HIRE ME</small><span class="sc">3 steps. 2 minutes.</span></h2>
  <div class="steps">
   <div class="panel"><b>01</b><h3>📄 Read my CV</h3><p>One click. One page. Everything that matters.</p><a href="Dev_Prakash_Sahu_CV.pdf" download>Download →</a></div>
-  <div class="panel"><b>02</b><h3>🪐 Inspect my work</h3><p>Ten real projects orbit below. Hover each planet.</p><a href="#work">Explore →</a></div>
+  <div class="panel"><b>02</b><h3>🪐 Inspect my work</h3><p>Eight real projects orbit below. Hover each planet.</p><a href="#work">Explore →</a></div>
   <div class="panel"><b>03</b><h3>📡 Send a signal</h3><p>Tell me about the role. I reply fast.</p><a href="#contact">Contact →</a></div>
  </div>
 </section>
@@ -94,7 +94,7 @@ footer{text-align:center;padding:80px 5vw 40px;color:var(--mu);margin-top:60px;b
   <p data-l="> mission"></p><p data-l="Turn real-world problems into software people actually use."></p>
   <p data-l="> status"></p><p data-l="Open to internships and entry-level roles. Fast learner, team player."></p>
   <p data-l="> motto"></p><p data-l="Build. Break. Fix. Ship. Repeat."></p><p data-l="> _"></p></div>
- <div class="stats"><div class="panel"><b data-n="10">0</b><span>projects shipped</span></div><div class="panel"><b data-n="6">0</b><span>week IBM internship</span></div><div class="panel"><b data-n="3">0</b><span>languages spoken</span></div><div class="panel"><b>∞</b><span>curiosity</span></div></div></div>
+ <div class="stats"><div class="panel"><b data-n="8">0</b><span>projects shipped</span></div><div class="panel"><b data-n="6">0</b><span>week IBM internship</span></div><div class="panel"><b data-n="3">0</b><span>languages spoken</span></div><div class="panel"><b>∞</b><span>curiosity</span></div></div></div>
 </section>
 
 <section id="skills" class="wrap rv"><h2><small>// 02 SHIP SYSTEMS</small><span class="sc">What powers the ship</span></h2>
@@ -104,7 +104,7 @@ footer{text-align:center;padding:80px 5vw 40px;color:var(--mu);margin-top:60px;b
  </div><p class="note">Also: Tally · ATmega32 microcontrollers · English, Hindi, Bengali</p>
 </section>
 
-<section id="work" class="wrap rv"><h2><small>// 03 THE PROJECT UNIVERSE</small><span class="sc">Ten planets I built</span></h2>
+<section id="work" class="wrap rv"><h2><small>// 03 THE PROJECT UNIVERSE</small><span class="sc">Eight planets I built</span></h2>
  <p class="note">Hover or tap a planet to open its briefing.</p>
  <div class="orb"><div class="sys" id="sys"><i class="rg" style="width:40%;height:40%"></i><i class="rg" style="width:68%;height:68%"></i><i class="rg" style="width:94%;height:94%"></i><div class="sun">DEV</div></div><div class="panel info" id="inf"></div></div>
 </section>
@@ -177,8 +177,8 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return
  $('.ring',el).forEach(r=>cnt(r,+r.dataset.v,(a,v)=>{a.style.setProperty('--v',v);a.firstChild.textContent=Math.round(v)}))}),{threshold:.15});
 $('.rv').forEach(el=>io.observe(el));
 // planets
-const PR=[['🌾','AgroPulse Precision','Agri-biotech web app for crop yield, soil health, bio-solutions and an AI agronomist. Live on Vercel.','WEB · AI · HACKATHON'],['🌱','AgroSmart AI','Precision farming and soil-health app with ML predictions, charts and PDF reports.','FLASK · SQLITE · SCIKIT-LEARN'],['🩸','Local Blood Donor Connect','Verified donor registry that matches people by location and blood group and notifies donors.','SOCIAL GOOD · HACKATHON'],['📦','TRACE360','B2B product traceability platform with a QR-code batch journey, built full-stack.','FULL-STACK · QR','https://trace360-by-dev.netlify.app'],['❤️','Cardiac Risk 3D','3D visualisation and prediction of cardiovascular risk on the Z-Alizadeh Sani dataset.','MULTIMODAL AI HACKATHON 2026'],['🔋','VoltRelay Analytics','Data analytics on a battery-swap network for the Gradient Learnings hackathon.','DATA ANALYTICS'],['🧠','BharatCares AI','Data Analytics and AI internship project, built with IBM watsonx.','IBM WATSONX'],['🛰️','ORBION · NexaForge','8-hour hackathon at the Institute of Engineering and Management with Team NexaForge.','TEAM PROJECT'],['⚖️','Test Report Software for Non-Automatic Weighing Instruments (NAWI), OIML R-76','Development of a software program/application for generating test reports for Non-Automatic Weighing Instruments (NAWI) as per OIML Recommendation R-76.','SOFTWARE · OIML R-76'],['❄️','Integrated Polar Expedition Logistics and Asset Management System','An integrated system for planning polar expedition logistics and managing expedition assets.','LOGISTICS · ASSET MANAGEMENT']].map(([e,n,d,t,u],i)=>({e,n,d,t,u,ring:i%3,a:i*1.9}));
-let hov=-1;function show(i){const p=PR[i];inf.innerHTML=`<small>${p.t}</small><h3>${p.e} ${p.n}</h3><p>${p.d}</p>${p.u?`<a class="btn" href="${p.u}" target="_blank" rel="noopener">🔗 LIVE DEMO</a>`:''}`;PR.forEach((q,j)=>q.el.classList.toggle('on',j==i))}
+const PR=[['🌾','AgroPulse Precision','Agri-biotech web app for crop yield, soil health, bio-solutions and an AI agronomist. Live on Vercel.','WEB · AI · HACKATHON'],['🌱','AgroSmart AI','Precision farming and soil-health app with ML predictions, charts and PDF reports.','FLASK · SQLITE · SCIKIT-LEARN','https://github.com/devprakashsahu348-glitch/agrosmart-ai'],['📦','TRACE360','B2B product traceability platform with a QR-code batch journey, built full-stack.','FULL-STACK · QR','https://trace360-by-dev.netlify.app'],['❤️','Cardiac Risk 3D','3D visualisation and prediction of cardiovascular risk on the Z-Alizadeh Sani dataset.','MULTIMODAL AI HACKATHON 2026'],['🧠','BharatCares AI','Data Analytics and AI internship project, built with IBM watsonx.','IBM WATSONX','https://github.com/devprakashsahu348-glitch/ecommerce-sales-analytics'],['⚖️','Test Report Software for Non-Automatic Weighing Instruments (NAWI), OIML R-76','Development of a software program/application for generating test reports for Non-Automatic Weighing Instruments (NAWI) as per OIML Recommendation R-76.','SOFTWARE · OIML R-76'],['❄️','Integrated Polar Expedition Logistics and Asset Management System','An integrated system for planning polar expedition logistics and managing expedition assets.','LOGISTICS · ASSET MANAGEMENT'],['📸','AttendX AI','Smart attendance for schools, colleges and universities. Teachers upload a class photo and review the draft list, with timetable-aware sessions, monthly reports and consent-first face data.','SAAS · AI · LIVE','https://attend-x-ai-hazel.vercel.app/']].map(([e,n,d,t,u],i)=>({e,n,d,t,u,ring:i%3,a:i*1.9}));
+let hov=-1;function show(i){const p=PR[i];inf.innerHTML=`<small>${p.t}</small><h3>${p.e} ${p.n}</h3><p>${p.d}</p>${p.u?`<a class="btn" href="${p.u}" target="_blank" rel="noopener">${/github\.com/.test(p.u)?'🐙 VIEW ON GITHUB':'🔗 LIVE DEMO'}</a>`:''}`;PR.forEach((q,j)=>q.el.classList.toggle('on',j==i))}
 PR.forEach((p,i)=>{const b=document.createElement('button');b.className='pl';b.textContent=p.e;b.setAttribute('aria-label',p.n);sys.append(b);p.el=b;b.onmouseenter=()=>{hov=i;show(i)};b.onmouseleave=()=>hov=-1;b.onclick=()=>{hov=i;show(i)}});show(0);
 let lt=performance.now();(function o(t){const dt=Math.min((t-lt)/1000,.1);lt=t;const W=sys.clientWidth,R=[.2,.34,.47],V=[.55,-.36,.24];PR.forEach((p,i)=>{if(hov!==i)p.a+=dt*V[p.ring];const r=R[p.ring]*W;p.el.style.transform=`translate(${W/2+Math.cos(p.a)*r}px,${W/2+Math.sin(p.a)*r}px) translate(-50%,-50%)`});requestAnimationFrame(o)})(lt);
 // flight path rocket + progress
