@@ -1,0 +1,13 @@
+# Dev Prakash Sahu
+
+> Portfolio of Dev Prakash Sahu, a BCA (Hons.) student in Kharagpur, India. Python and web developer with IBM SkillsBuild Data Analytics with AI internship experience (2026), open to internships and entry-level roles.
+
+## Pages
+- [Portfolio](https://dev-prakash-portfolio.vercel.app/): About, skills, projects, experience, certificates, FAQ and contact
+- [CV (PDF)](https://dev-prakash-portfolio.vercel.app/Dev_Prakash_Sahu_CV.pdf): Curriculum vitae
+- [IBM internship certificate (PDF)](https://dev-prakash-portfolio.vercel.app/IBM_Data_Analytics_AI_Internship_Certificate.pdf)
+
+## Contact
+- Email: devprakashsahu348@gmail.com
+- GitHub: https://github.com/devprakashsahu348-glitch
+- LinkedIn: https://www.linkedin.com/in/dev-prakash-sahu-27a77133a
